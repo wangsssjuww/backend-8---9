@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(routerMhs)
 app.use(routerMk)
 app.use(routerNilai)
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
 
 app.listen(port, () => {

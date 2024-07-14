@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "cor": "^0.0.0",
+    "cros": "^1.0.1",
     "express": "^4.19.2",
+    "express-session": "^1.18.0",
     "mysql2": "^3.10.2"
   }
 }
